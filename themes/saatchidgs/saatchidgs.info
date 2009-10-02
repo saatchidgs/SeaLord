@@ -1,0 +1,34 @@
+; $Id: saatchidgs.info,v 1.5 2007/07/01 23:27:32 goba Exp $
+name = SaatchiDGS
+description = Tableless, recolorable, multi-column, fluid width theme (default).
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
+
+; Information added by drupal.org packaging script on 2009-09-16
+version = "6.14"
+project = "drupal"
+datestamp = "1253130027"
+
+# Regions - Defaults
+# 
+# 	regions[header] = Header
+# 	regions[content] = Content
+# 	regions[left] = Left sidebar
+# 	regions[right] = Right sidebar
+# 	regions[footer] = Footer
+
+
+regions[header] = Header
+regions[primary_links_region] = Primary Links
+regions[secondary_links_region] = Secondary Links
+regions[news_flash_region] = News Flash
+regions[content] = Content
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[footer] = Footer
+
+
